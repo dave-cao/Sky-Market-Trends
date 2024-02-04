@@ -7,6 +7,9 @@ author: David Cao
 <h4 align='center'>Uncovering the relationship between Weather and the Oshkosh Corporation</h4>
 <br>
 
+<!-- Video walkthrough or image -->
+<img src='./weatherplot.png' title='Plot of weather temperature to OSK stock price' width='' alt='Plot of weather temperature to OSK stock price' />
+
 <br>
 
 <!-- List links to the project here (eg: live-link, youtube video) -->
