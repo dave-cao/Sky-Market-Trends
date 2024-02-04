@@ -14,6 +14,7 @@ https://github.com/dave-cao/Sky-Market-Trends/assets/63488152/2dcf0281-3783-46ba
 
 <!-- List links to the project here (eg: live-link, youtube video) -->
 - **Demonstration Video: coming soon...**
+- [Write-up / Analysis](https://github.com/dave-cao/Sky-Market-Trends/blob/main/writeup.md)
 
 
 <!-- ABOUT THE PROJECT -->
