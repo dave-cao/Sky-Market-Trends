@@ -1,0 +1,252 @@
+[2024-02-03T23:40:17.538+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:40:17.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:40:17.543+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:40:17.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:40:17.561+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:40:17.559+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:40:17.561+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:40:17.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.056 seconds
+[2024-02-03T23:40:48.484+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:40:48.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:40:48.487+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:40:48.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:40:48.499+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:40:48.496+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:40:48.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:40:48.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.035 seconds
+[2024-02-03T23:41:18.895+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:41:18.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:41:18.898+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:41:18.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:41:18.910+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:41:18.908+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:41:18.911+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:41:18.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.043 seconds
+[2024-02-03T23:41:49.253+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:41:49.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:41:49.257+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:41:49.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:41:49.274+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:41:49.271+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:41:49.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:41:49.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.055 seconds
+[2024-02-03T23:54:57.582+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:54:57.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:54:57.584+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:54:57.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:54:57.602+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:54:57.600+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:54:57.602+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:54:57.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.037 seconds
+[2024-02-03T23:55:27.744+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:55:27.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:55:27.749+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:55:27.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:55:27.777+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:55:27.775+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:55:27.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:55:27.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.052 seconds
+[2024-02-03T23:55:57.872+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:55:57.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:55:57.875+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:55:57.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:55:57.890+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:55:57.887+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:55:57.890+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:55:57.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.036 seconds
+[2024-02-03T23:56:28.020+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:56:28.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:56:28.023+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:56:28.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:56:28.034+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:56:28.032+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:56:28.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:56:28.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.032 seconds
+[2024-02-03T23:56:58.149+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:56:58.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:56:58.151+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:56:58.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:56:58.164+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:56:58.162+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:56:58.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:56:58.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.033 seconds
+[2024-02-03T23:57:28.284+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:57:28.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:57:28.287+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:57:28.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:57:28.297+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:57:28.295+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:57:28.297+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:57:28.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.037 seconds
+[2024-02-03T23:57:58.416+0000] {processor.py:161} INFO - Started process (PID=80) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:57:58.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:57:58.419+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:57:58.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:57:58.433+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:57:58.430+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:57:58.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:57:58.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.041 seconds
+[2024-02-03T23:58:28.543+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:58:28.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:58:28.546+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:58:28.546+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:58:28.558+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:58:28.556+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:58:28.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:58:28.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.039 seconds
+[2024-02-03T23:58:58.681+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:58:58.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:58:58.683+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:58:58.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:58:58.693+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:58:58.691+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 37, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 498, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Weather and OSHKOSH ETL Process' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-02-03T23:58:58.693+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:58:58.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.037 seconds
+[2024-02-03T23:59:07.728+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:59:07.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:59:07.730+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:07.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:59:07.755+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:59:07.942+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:07.941+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:Weather_and_OSHKOSH_ETL_Process
+[2024-02-03T23:59:07.950+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:07.949+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:Weather_and_OSHKOSH_ETL_Process
+[2024-02-03T23:59:07.956+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:07.955+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:Weather_and_OSHKOSH_ETL_Process
+[2024-02-03T23:59:07.956+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:07.956+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T23:59:07.965+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:07.965+0000] {dag.py:3058} INFO - Creating ORM DAG for Weather_and_OSHKOSH_ETL_Process
+[2024-02-03T23:59:07.973+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:07.973+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-02-03T23:59:07.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.262 seconds
+[2024-02-03T23:59:38.103+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/etl.py
+[2024-02-03T23:59:38.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-03T23:59:38.107+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:38.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-03T23:59:38.121+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-03T23:59:38.147+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:38.146+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T23:59:38.166+0000] {logging_mixin.py:188} INFO - [2024-02-03T23:59:38.166+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2024-02-03T23:59:38.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.082 seconds
