@@ -3,6 +3,7 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
 import sqlite3
 import requests
+from airflow.utils.dates import days_ago
 
 # Keys
 STOCK_API_KEY = "HSF3ANJAZIIKS79M"
@@ -39,6 +40,8 @@ dag = DAG(
     default_args=default_args,
     description='A simple ETL process relating weather and stock price',
     schedule_interval=timedelta(days=1),
+    start_date=days_ago(1),
+    catchup=False,
 )
 
 # Define the tasks/functions for ETL
