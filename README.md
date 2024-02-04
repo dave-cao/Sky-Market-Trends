@@ -8,7 +8,7 @@ author: David Cao
 <br>
 
 <!-- Video walkthrough or image -->
-<img src='./weatherplot.png' title='Plot of weather temperature to OSK stock price' width='' alt='Plot of weather temperature to OSK stock price' />
+<img src='./' title='video demonstration' width='' alt='Video demonstration' />
 
 <br>
 
@@ -23,6 +23,8 @@ This data engineering project aims to uncover the relationship between weather c
 the stock price of the Oshkosh Corporation. The Oshkosh corporation is a company that designs and builds specialty trucks, military vehicles, truck bodies, airport fire apparatus, and access equipment headquartered in Oshkosh, Wisconsin. 
 
 Due to their relationship with speciality vehicles, I hypothesized that their stock price would be affected by weather conditions. For example, if there is a snowstorm, then the stock price would increase due to higher demand of speciality snow vehicles (eg: Snow plows).
+
+<img src='./weatherplot.png' title='Plot of weather temperature to OSK stock price' width='' alt='Plot of weather temperature to OSK stock price' />
 
 ### Use Case
 
