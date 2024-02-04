@@ -6,6 +6,7 @@ author: David Cao
 <h1 align='center'>Sky Market Trends</h1>
 <h4 align='center'>Uncovering the relationship between Weather and the Oshkosh Corporation</h4>
 <br>
+![image](https://github.com/dave-cao/Sky-Market-Trends/assets/63488152/bcfe6c12-1f5a-4d76-a338-eddc29cc78a3)
 
 <br>
 
