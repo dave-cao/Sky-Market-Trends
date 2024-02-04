@@ -13,7 +13,7 @@ https://github.com/dave-cao/Sky-Market-Trends/assets/63488152/2dcf0281-3783-46ba
 <br>
 
 <!-- List links to the project here (eg: live-link, youtube video) -->
-- **Demonstration Video: coming soon...**
+- **Demonstration Video**: https://youtu.be/wYr0-9wF5Zw
 - [Write-up / Analysis](https://github.com/dave-cao/Sky-Market-Trends/blob/main/writeup.md)
 
 
