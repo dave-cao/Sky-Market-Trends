@@ -8,7 +8,9 @@ author: David Cao
 <br>
 
 <!-- Video walkthrough or image -->
-<img src='./' title='video demonstration' width='' alt='Video demonstration' />
+https://github.com/dave-cao/Sky-Market-Trends/assets/63488152/bdbc6e34-965e-4fcb-9f24-d867236127a3
+
+
 
 <br>
 
