@@ -32,10 +32,6 @@ Due to their relationship with speciality vehicles, I hypothesized that their st
 This project is useful for data scientists looking to learn more about the relationship between weather and the Oshkosh Corporation. 
 Perhaps they can use this information to make better predictions on what products to invest in or how to allocate marketing resources during certain weather conditions.
 
-### Why Did I Build it
-
-To be completely honest, I have a data engineering intern interview coming up and I wanted to build a project that would help me learn more about data engineering. The position is with the Oshkosh corporation so I thought it would be a great starting point in learning how to build a data pipeline and relating it back to my interview.
-
 ## Features
 
 - **Data Collection**: Automated processes to fetch historical weather data and OSK stock prices from reputable APIs (WeatherBit, AlphaVantage).
