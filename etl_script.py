@@ -1,10 +1,16 @@
 import sqlite3
 import requests
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Keys
-STOCK_API_KEY = "HSF3ANJAZIIKS79M"
-WEATHER_API_KEY = "0823422c3bed464fbc37e0fa728c8c95"
+STOCK_API_KEY = os.environ["STOCK_API_KEY"]
+WEATHER_API_KEY = os.environ["WEATHER_API_KEY"]
+print(STOCK_API_KEY)
+print(WEATHER_API_KEY)
 
 
 def get_dates():

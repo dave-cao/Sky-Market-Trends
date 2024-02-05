@@ -955,3 +955,136 @@
 [2024-02-04T03:27:25.043+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:27:25.043+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-02-04T03:27:25.061+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:27:25.060+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
 [2024-02-04T03:27:25.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.083 seconds
+[2024-02-04T03:27:55.225+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:27:55.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:27:55.229+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:27:55.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:27:55.244+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:27:55.269+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:27:55.269+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:27:55.291+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:27:55.290+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:27:55.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.090 seconds
+[2024-02-04T03:28:25.370+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:28:25.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:28:25.372+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:28:25.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:28:25.388+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:28:25.413+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:28:25.412+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:28:25.433+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:28:25.433+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:28:25.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.091 seconds
+[2024-02-04T03:28:55.553+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:28:55.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:28:55.555+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:28:55.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:28:55.568+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:28:55.595+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:28:55.595+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:28:55.616+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:28:55.615+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:28:55.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.081 seconds
+[2024-02-04T03:29:25.700+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:29:25.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:29:25.703+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:29:25.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:29:25.718+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:29:25.743+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:29:25.743+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:29:25.763+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:29:25.763+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:29:25.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.081 seconds
+[2024-02-04T03:29:55.882+0000] {processor.py:161} INFO - Started process (PID=414) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:29:55.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:29:55.884+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:29:55.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:29:55.898+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:29:55.925+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:29:55.925+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:29:55.947+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:29:55.947+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:29:55.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.089 seconds
+[2024-02-04T03:30:26.019+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:30:26.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:30:26.023+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:30:26.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:30:26.039+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:30:26.064+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:30:26.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:30:26.090+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:30:26.089+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:30:26.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.092 seconds
+[2024-02-04T03:30:56.229+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:30:56.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:30:56.231+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:30:56.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:30:56.250+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:30:56.278+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:30:56.278+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:30:56.298+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:30:56.298+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:30:56.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.091 seconds
+[2024-02-04T03:31:26.384+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:31:26.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:31:26.389+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:31:26.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:31:26.408+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:31:26.440+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:31:26.439+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:31:26.460+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:31:26.460+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:31:26.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.101 seconds
+[2024-02-04T03:31:56.574+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:31:56.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:31:56.577+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:31:56.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:31:56.593+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:31:56.618+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:31:56.618+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:31:56.638+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:31:56.638+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:31:56.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.085 seconds
+[2024-02-04T03:37:26.359+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:37:26.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:37:26.361+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:37:26.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:37:26.391+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:37:26.573+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:37:26.572+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:37:26.594+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:37:26.594+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:37:26.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.277 seconds
+[2024-02-04T03:37:56.755+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:37:56.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:37:56.760+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:37:56.758+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:37:56.783+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:37:56.811+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:37:56.810+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:37:56.830+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:37:56.830+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:37:56.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.094 seconds
+[2024-02-04T03:38:26.876+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:38:26.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:38:26.879+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:38:26.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:38:26.895+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:38:26.923+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:38:26.922+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:38:26.947+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:38:26.946+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:38:26.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.089 seconds
+[2024-02-04T03:38:57.069+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:38:57.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:38:57.071+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:38:57.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:38:57.085+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:38:57.109+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:38:57.109+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:38:57.128+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:38:57.127+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:38:57.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.076 seconds
+[2024-02-04T03:39:27.199+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:39:27.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:39:27.201+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:39:27.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:39:27.217+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:39:27.239+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:39:27.239+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:39:27.256+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:39:27.255+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:39:27.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.075 seconds
+[2024-02-04T03:39:57.379+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:39:57.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:39:57.381+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:39:57.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:39:57.396+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:39:57.418+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:39:57.417+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:39:57.437+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:39:57.436+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:39:57.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.074 seconds
+[2024-02-04T03:40:27.511+0000] {processor.py:161} INFO - Started process (PID=80) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:40:27.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:40:27.514+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:40:27.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:40:27.532+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:40:27.558+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:40:27.558+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:40:27.577+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:40:27.576+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:40:27.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.085 seconds
+[2024-02-04T03:40:57.682+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:40:57.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:40:57.684+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:40:57.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:40:57.698+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:40:57.720+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:40:57.720+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:40:57.737+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:40:57.737+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:40:57.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.079 seconds
+[2024-02-04T03:41:27.818+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:41:27.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:41:27.821+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:41:27.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:41:27.836+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:41:27.857+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:41:27.857+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:41:27.875+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:41:27.875+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:41:27.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.081 seconds
+[2024-02-04T03:41:57.984+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/etl.py
+[2024-02-04T03:41:57.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-02-04T03:41:57.986+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:41:57.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-02-04T03:41:58.003+0000] {processor.py:840} INFO - DAG(s) 'Weather_and_OSHKOSH_ETL_Process' retrieved from /opt/airflow/dags/etl.py
+[2024-02-04T03:41:58.027+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:41:58.026+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-04T03:41:58.046+0000] {logging_mixin.py:188} INFO - [2024-02-04T03:41:58.046+0000] {dag.py:3823} INFO - Setting next_dagrun for Weather_and_OSHKOSH_ETL_Process to 2024-02-04 00:00:00+00:00, run_after=2024-02-05 00:00:00+00:00
+[2024-02-04T03:41:58.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl.py took 0.082 seconds

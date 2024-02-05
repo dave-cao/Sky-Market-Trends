@@ -4,10 +4,14 @@ from datetime import datetime, timedelta
 import sqlite3
 import requests
 from airflow.utils.dates import days_ago
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Keys
-STOCK_API_KEY = "HSF3ANJAZIIKS79M"
-WEATHER_API_KEY = "0823422c3bed464fbc37e0fa728c8c95"
+STOCK_API_KEY = os.environ["STOCK_API_KEY"]
+WEATHER_API_KEY = os.environ["WEATHER_API_KEY"]
 
 # PARAMS
 WEATHER_PARAMS = {
