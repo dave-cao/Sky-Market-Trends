@@ -1,8 +1,7 @@
 # Documenting the Steps of the Project
 
 When I first thought of creating this project I realized that I needed a plan. 
-I only had 4 days to complete the project so I had to make sure that I had a plan 
-and that the project was relatively achievable. 
+I only had 4 days to complete the project so I had to make sure that the project was relatively achievable. 
 
 I decided to break the project into 4 main parts:
 
